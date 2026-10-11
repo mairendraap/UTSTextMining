@@ -1,0 +1,31 @@
+id,ulasan,clean,final,label
+1,"Produk bagus banget, pengiriman cepat dan packing rapi!",produk bagus banget pengiriman cepat dan packing rapi,produk bagus kirim cepat packing rapi,positif
+2,"Kecewa, barang datang rusak dan pelayanan lambat.",kecewa barang datang rusak dan pelayanan lambat,kecewa barang datang rusak layan lambat,negatif
+3,"Kualitas lumayan, harga sesuai tapi pengiriman agak lama.",kualitas lumayan harga sesuai tapi pengiriman agak lama,kualitas lumayan harga sesuai kirim agak lama,netral
+4,Sangat puas! Bahan premium dan jahitan rapi sekali.,sangat puas bahan premium dan jahitan rapi sekali,puas bahan premium jahit rapi,positif
+5,"Tidak sesuai gambar, warna pudar dan bau menyengat.",tidak sesuai gambar warna pudar dan bau menyengat,sesuai gambar warna pudar bau sengat,negatif
+6,"Biasa saja, tidak istimewa tapi juga tidak buruk.",biasa saja tidak istimewa tapi juga tidak buruk,biasa istimewa buruk,netral
+7,"Pelayanan ramah, admin fast respon, barang original!",pelayanan ramah admin fast respon barang original,layan ramah admin fast respon barang original,positif
+8,"Baterai cepat habis, padahal baru dipakai seminggu.",baterai cepat habis padahal baru dipakai seminggu,baterai cepat habis padahal baru pakai minggu,negatif
+9,"Cukup oke untuk harga segini, recommended buat pemula.",cukup oke untuk harga segini recommended buat pemula,cukup oke harga gin recommended buat mula,positif
+10,"Pengiriman super lambat, sampai 2 minggu baru datang!",pengiriman super lambat sampai minggu baru datang,kirim super lambat sampai minggu baru datang,negatif
+11,"Desain bagus tapi ukuran kekecilan, tolong perbaiki size chart.",desain bagus tapi ukuran kekecilan tolong perbaiki size chart,desain bagus ukur kecil tolong baik size chart,netral
+12,Mantap! Sudah beli 3 kali dan selalu memuaskan.,mantap sudah beli kali dan selalu memuaskan,mantap beli kali muas,positif
+13,"Harga mahal tapi kualitas murahan, sangat mengecewakan.",harga mahal tapi kualitas murahan sangat mengecewakan,harga mahal kualitas murah kecewa,negatif
+14,"Fungsinya standar, tidak ada keluhan berarti.",fungsinya standar tidak ada keluhan berarti,fungsi standar keluh arti,netral
+15,"Wanginya enak, tahan lama, pasti beli lagi!",wanginya enak tahan lama pasti beli lagi,wangi enak tahan lama pasti beli lagi,positif
+16,Tombolnya susah ditekan dan layar sering macet.,tombolnya susah ditekan dan layar sering macet,tombol susah tekan layar macet,negatif
+17,"Ya lumayan lah, sesuai ekspektasi dengan harga diskon.",ya lumayan lah sesuai ekspektasi dengan harga diskon,ya lumayan sesuai ekspektasi harga diskon,positif
+18,"CS tidak ramah, komplain saya tidak ditanggapi sama sekali.",cs tidak ramah komplain saya tidak ditanggapi sama sekali,cs ramah komplain tanggap sama,negatif
+19,"Warna sesuai foto, bahan adem, nyaman dipakai sehari-hari.",warna sesuai foto bahan adem nyaman dipakai sehari hari,warna sesuai foto bahan adem nyaman pakai hari hari,positif
+20,"Packing asal-asalan, dus penyok dan segel terbuka.",packing asal asalan dus penyok dan segel terbuka,packing asal asal dus penyok segel buka,negatif
+21,"Tidak bagus tidak jelek, standar toko pada umumnya.",tidak bagus tidak jelek standar toko pada umumnya,bagus jelek standar toko umum,netral
+22,"Pengalaman belanja menyenangkan, gratis ongkir dan bonus stiker!",pengalaman belanja menyenangkan gratis ongkir dan bonus stiker,alam belanja senang gratis ongkir bonus stiker,positif
+23,"Ukuran tidak akurat, kekecilan padahal sudah ikut panduan.",ukuran tidak akurat kekecilan padahal sudah ikut panduan,ukur akurat kecil padahal ikut pandu,negatif
+24,Kualitas jahitan kurang rapi tapi masih bisa dipakai.,kualitas jahitan kurang rapi tapi masih bisa dipakai,kualitas jahit kurang rapi masih bisa pakai,netral
+25,"Rasa makanannya enak banget, porsi besar, harga bersahabat!",rasa makanannya enak banget porsi besar harga bersahabat,rasa makan enak porsi besar harga sahabat,positif
+26,"Aplikasi sering error saat checkout, tolong diperbaiki!",aplikasi sering error saat checkout tolong diperbaiki,aplikasi error checkout tolong baik,negatif
+27,"Hmm biasa aja sih, pengiriman cepat tapi produk pas-pasan.",hmm biasa aja sih pengiriman cepat tapi produk pas pasan,hmm biasa kirim cepat produk pas pas,netral
+28,"Luar biasa! Melebihi ekspektasi, bintang lima!",luar biasa melebihi ekspektasi bintang lima,luar biasa lebih ekspektasi bintang lima,positif
+29,"Saya tidak suka, bahannya panas dan gatal di kulit.",saya tidak suka bahannya panas dan gatal di kulit,suka bahan panas gatal kulit,negatif
+30,"Oke kok, tidak ada masalah, sesuai deskripsi.",oke kok tidak ada masalah sesuai deskripsi,oke masalah sesuai deskripsi,positif

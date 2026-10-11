@@ -1,0 +1,31 @@
+id,ulasan,rating,label
+1,"Produk bagus banget, pengiriman cepat dan packing rapi!",5,positif
+2,"Kecewa, barang datang rusak dan pelayanan lambat.",1,negatif
+3,"Kualitas lumayan, harga sesuai tapi pengiriman agak lama.",3,netral
+4,"Sangat puas! Bahan premium dan jahitan rapi sekali.",5,positif
+5,"Tidak sesuai gambar, warna pudar dan bau menyengat.",2,negatif
+6,"Biasa saja, tidak istimewa tapi juga tidak buruk.",3,netral
+7,"Pelayanan ramah, admin fast respon, barang original!",5,positif
+8,"Baterai cepat habis, padahal baru dipakai seminggu.",2,negatif
+9,"Cukup oke untuk harga segini, recommended buat pemula.",4,positif
+10,"Pengiriman super lambat, sampai 2 minggu baru datang!",1,negatif
+11,"Desain bagus tapi ukuran kekecilan, tolong perbaiki size chart.",3,netral
+12,"Mantap! Sudah beli 3 kali dan selalu memuaskan.",5,positif
+13,"Harga mahal tapi kualitas murahan, sangat mengecewakan.",1,negatif
+14,"Fungsinya standar, tidak ada keluhan berarti.",3,netral
+15,"Wanginya enak, tahan lama, pasti beli lagi!",5,positif
+16,"Tombolnya susah ditekan dan layar sering macet.",2,negatif
+17,"Ya lumayan lah, sesuai ekspektasi dengan harga diskon.",4,positif
+18,"CS tidak ramah, komplain saya tidak ditanggapi sama sekali.",1,negatif
+19,"Warna sesuai foto, bahan adem, nyaman dipakai sehari-hari.",4,positif
+20,"Packing asal-asalan, dus penyok dan segel terbuka.",2,negatif
+21,"Tidak bagus tidak jelek, standar toko pada umumnya.",3,netral
+22,"Pengalaman belanja menyenangkan, gratis ongkir dan bonus stiker!",5,positif
+23,"Ukuran tidak akurat, kekecilan padahal sudah ikut panduan.",2,negatif
+24,"Kualitas jahitan kurang rapi tapi masih bisa dipakai.",3,netral
+25,"Rasa makanannya enak banget, porsi besar, harga bersahabat!",5,positif
+26,"Aplikasi sering error saat checkout, tolong diperbaiki!",2,negatif
+27,"Hmm biasa aja sih, pengiriman cepat tapi produk pas-pasan.",3,netral
+28,"Luar biasa! Melebihi ekspektasi, bintang lima!",5,positif
+29,"Saya tidak suka, bahannya panas dan gatal di kulit.",1,negatif
+30,"Oke kok, tidak ada masalah, sesuai deskripsi.",4,positif
