@@ -69,7 +69,7 @@ except ImportError:
 **Kode yang di-run (Cell 2):**
 
 ```python
-df = pd.read_csv("dataset/dataset_dummy_ulasan.csv")
+df = pd.read_csv("dataset/dataset_dummy_ulasan.csv").copy()  # .copy(): pastikan df pemilik data (aman untuk pandas 3 Copy-on-Write)
 print("Shape:", df.shape)
 print(df["label"].value_counts())
 print(df.head(5).to_string())
@@ -103,7 +103,7 @@ def clean_text(teks: str) -> str:
     teks = re.sub(r"\s+", " ", teks).strip()        # rapikan spasi
     return teks
 
-df["clean"] = df["ulasan"].astype(str).apply(clean_text)
+df.loc[:, "clean"] = df["ulasan"].astype(str).apply(clean_text)  # .loc[:, kol]: assignment satu langkah (anti ChainedAssignmentError pandas 3)
 print("SEBELUM:", df.loc[0, "ulasan"])
 print("SESUDAH:", df.loc[0, "clean"])
 ```
@@ -127,7 +127,7 @@ SESUDAH: produk bagus banget pengiriman cepat dan packing rapi
 **Kode yang di-run (Cell 4):**
 
 ```python
-df["tokens"] = df["clean"].str.split()
+df.loc[:, "tokens"] = df["clean"].str.split()
 print(df.loc[0, "tokens"])
 print("Jumlah token kalimat-1:", len(df.loc[0, "tokens"]))
 ```
@@ -156,7 +156,7 @@ STOPWORDS_ID = {
     "aja", "saja", "pada", "dalam", "secara", "sering", "selalu"
 }
 
-df["no_stop"] = df["tokens"].apply(lambda toks: [t for t in toks if t not in STOPWORDS_ID])
+df.loc[:, "no_stop"] = df["tokens"].apply(lambda toks: [t for t in toks if t not in STOPWORDS_ID])
 print("SEBELUM:", df.loc[0, "tokens"])
 print("SESUDAH:", df.loc[0, "no_stop"])
 ```
@@ -197,8 +197,8 @@ def stem_tokens(tokens):
         return [stemmer.stem(t) for t in tokens]
     return [simple_stem_fallback(t) for t in tokens]
 
-df["stemmed"] = df["no_stop"].apply(stem_tokens)
-df["final"] = df["stemmed"].apply(lambda toks: " ".join(toks))
+df.loc[:, "stemmed"] = df["no_stop"].apply(stem_tokens)
+df.loc[:, "final"] = df["stemmed"].apply(lambda toks: " ".join(toks))
 print("SEBELUM:", df.loc[0, "no_stop"])
 print("SESUDAH:", df.loc[0, "stemmed"])
 print("FINAL  :", df.loc[0, "final"])
